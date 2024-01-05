@@ -68,16 +68,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
 
         .btn-primary {
-            background-color: transparent;
-            border-color: #007bff;
-            color: #007bff;
-            border-radius: 20px;
-        }
+      background-color: transparent;
+      border-color: black;
+      color: black;
+      border-radius: 20px;
+    }
 
-        .btn-primary:hover {
-            background-color: #007bff;
-            color: #fff;
-        }
+    .btn-primary:hover {
+      background-color: black;
+      color: white;
+    }
+
+    .link-button {
+      color: black;
+      transition: color 0.3s;
+    }
+
+    .link-button:hover {
+      color: white;
+    }
 
         .mb-3 input {
             display: block;

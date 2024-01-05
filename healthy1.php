@@ -59,7 +59,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
         .form-control {
-            border-radius: 20px; 
+            border-radius: 200px; 
         }
 
 
