@@ -77,7 +77,7 @@
         <h1 class="mb-4">client 1</h1>
         <form>
             <div class="button-container">
-                <a class="btn btn-primary link-button" href="accept.php">Accept</a>
+                <a class="btn btn-primary link-button" href="accepts.php">Accept</a>
             </div>
             <div class="button-container">
                 <a class="btn btn-primary link-button" href="find.php">Decline</a>

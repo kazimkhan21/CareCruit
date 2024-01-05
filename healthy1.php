@@ -46,45 +46,43 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
 
         .form-container {
-    background-color: rgba(0, 0, 0, 0); /* Set complete transparency for form background */
-    border: 2px solid black; /* Add a black border */
+    background-color: rgba(0, 0, 0, 0); 
+    border: 2px solid black; 
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 80%; /* Adjust the width as needed */
-    max-width: 600px; /* Maximum width for larger screens */
+    width: 80%; 
+    max-width: 600px; 
 }
 
 
-        /* Oval input fields */
+
         .form-control {
-            border-radius: 20px; /* Oval shape */
+            border-radius: 20px; 
         }
 
-        /* Oval buttons */
+
         .btn-primary {
-            background-color: transparent; /* Transparent background */
-            border-color: transparent; /* Transparent border */
+            background-color: transparent; 
+            border-color: transparent; 
             color: black;
-            border-radius: 20px; /* Oval shape */
-            transition: background-color 0.3s, color 0.3s; /* Smooth color transition */
+            border-radius: 20px; 
+            transition: background-color 0.3s, color 0.3s; 
         }
 
         .btn-primary:hover {
-            background-color: black; /* Change background on hover */
-            color: white; /* Change text color on hover */
+            background-color: black; 
+            color: white; 
         }
 
-        /* Other CSS styles */
+
     </style>
 </head>
 
 <body>
     <div class="form-container">
         <h1 class="mb-4">Personal Form</h1>
-        <!-- Form starts here -->
         <form action="/project/healthy1.php" method="post" enctype="multipart/form-data">
-            <!-- Input fields -->
             <div class="mb-3">
                 <label for="username" class="form-label">Username</label>
                 <input type="text" class="form-control" id="username" name="username" aria-describedby="emailHelp">
@@ -139,7 +137,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <a class="btn btn-primary link-button" href="checks.php">Check orders</a>
             </div>
         </form>
-        <!-- Form ends here -->
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

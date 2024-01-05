@@ -7,14 +7,18 @@
   <title>Health Form</title>
   <style>
     body {
-      background-image: url('WhatsApp Image 2024-01-04 at 12.28.25_a87e6ed3.jpg');
-      background-size: cover;
-      margin: 0;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+  background-image: url('WhatsApp Image 2024-01-04 at 12.30.01_15a298df.jpg');
+  background-size: 100% auto; /* Zoomed out by 90% horizontally, maintaining aspect ratio */
+  background-position: center; /* Aligning the background image to the center */
+  background-repeat: no-repeat; /* Ensuring the background image doesn't repeat */
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
     .form-container {
       background-color: rgba(255, 255, 255, 0.3);
       backdrop-filter: blur(10px);

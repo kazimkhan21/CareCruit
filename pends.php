@@ -102,7 +102,7 @@
                 <a class="btn btn-primary link-button" href="find.php">Video Call<span class="video-call-symbol">&#x1F3A5;</span></a>
             </div>
             <div class="button-container">
-                <a class="btn btn-primary link-button" href="pends.php">payment<span class="video-call-symbol"></a>
+                <a class="btn btn-primary link-button" href="pend.php">payment<span class="video-call-symbol"></a>
             </div>
         </form>
     </div>

@@ -13,15 +13,16 @@
     <title>signup</title>
     <style>
         body {
-            margin: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            background-image: url('WhatsApp Image 2024-01-04 at 12.28.25_a87e6ed3.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
+  background-image: url('WhatsApp Image 2024-01-04 at 12.30.01_15a298df.jpg');
+  background-size: 100% auto; /* Zoomed out by 90% horizontally, maintaining aspect ratio */
+  background-position: center; /* Aligning the background image to the center */
+  background-repeat: no-repeat; /* Ensuring the background image doesn't repeat */
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
         .button-container {
             display: flex;
@@ -102,7 +103,7 @@
                 <a class="btn btn-primary link-button" href="find.php">Video Call<span class="video-call-symbol">&#x1F3A5;</span></a>
             </div>
             <div class="button-container">
-                <a class="btn btn-primary link-button" href="pends.php">payment<span class="video-call-symbol"></a>
+                <a class="btn btn-primary link-button" href="pend.php">payment<span class="video-call-symbol"></a>
             </div>
         </form>
     </div>
