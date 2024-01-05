@@ -133,8 +133,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </div>
                 <div class="mb-3">
                     <label for="mobile" class="form-label">Mobile</label>
-                    <input type="tel" class="form-control" id="mobile" name="mobile">
+                    <input type="tel" class="form-control" id="mobile" name="mobile" pattern="[0-9]{10}" title="Please enter a 10-digit number" required>
                 </div>
+
                 <div class="mb-3">
                     <button type="button" class="btn btn-primary" onclick="toggleAddress()">Address</button>
                 </div>
