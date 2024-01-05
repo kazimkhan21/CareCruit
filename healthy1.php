@@ -46,7 +46,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
 
         .form-container {
-    background-color: rgba(0, 0, 0, 0); 
+    background-color: rgba(225, 225, 225, 0.7); 
+    backdrop-filter: blur(10px);
     border: 2px solid black; 
     border-radius: 10px;
     padding: 20px;
@@ -64,7 +65,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         .btn-primary {
             background-color: transparent; 
-            border-color: transparent; 
+            border-color: black; 
             color: black;
             border-radius: 20px; 
             transition: background-color 0.3s, color 0.3s; 

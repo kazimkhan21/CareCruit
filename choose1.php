@@ -80,7 +80,7 @@
 
     
     .container.form-container {
-     background-color: transparent; 
+     background-color: rgba(225,225,225,0.7); 
     }
 
     .btn-primary:hover::after {

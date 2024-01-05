@@ -39,10 +39,11 @@
             height: 40px;
             border-radius: 50px; 
             transition: background-color 0.3s, border-color 0.3s; 
-            background-color: transparent;
-            color: #000;
-            border: 2px solid transparent; 
+            background-color:white;
+            color: black;
+            border: 2px solid black; 
             cursor: pointer;
+            /* background: ; */
         }
 
         .link-button:hover {
@@ -76,23 +77,40 @@
     </div>
 
     <div class="button-container">
-        <img src="WhatsApp Image 2023-12-31 at 8.32.56 PM.jpeg" alt="Image 1">
+        <img src="WhatsApp Image 2024-01-04 at 09.14.39_d89da8ea.jpg" alt="Image 1">
         <a class="btn btn-primary link-button" href="bio.php">plumber 1</a>
     </div>
 
     <div class="button-container">
-        <img src="WhatsApp Image 2023-12-31 at 8.32.56 PM.jpeg" alt="Image 2">
+        <img src="WhatsApp Image 2024-01-04 at 09.14.39_d89da8ea.jpg" alt="Image 2">
         <button class="link-button" href="#">plumber 2</button>
     </div>
 
     <div class="button-container">
-        <img src="WhatsApp Image 2023-12-31 at 8.32.56 PM.jpeg" alt="Image 3">
+        <img src="WhatsApp Image 2024-01-04 at 09.14.39_d89da8ea.jpg" alt="Image 3">
         <button class="link-button">plumber 3</button>
+    </div>
+    
+    <div class="button-container">
+        <img src="WhatsApp Image 2024-01-04 at 09.14.39_d89da8ea.jpg" alt="Image 3">
+        <button class="link-button">plumber 4</button>
+    </div>
+    
+    <div class="button-container">
+        <img src="WhatsApp Image 2024-01-04 at 09.14.39_d89da8ea.jpg" alt="Image 3">
+        <button class="link-button">plumber 5</button>
+    </div>
+    
+    <div class="button-container">
+        <img src="WhatsApp Image 2024-01-04 at 09.14.39_d89da8ea.jpg" alt="Image 3">
+        <button class="link-button">plumber 6</button>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+        
 </body>
+
 
 </html>

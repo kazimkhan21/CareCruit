@@ -54,7 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
 
         .form-container {
-    background-color: rgba(0, 0, 0, 0); 
+    background-color: rgba(225, 225, 225, 0.7); 
     border: 2px solid black; 
     border-radius: 10px;
     padding: 20px;

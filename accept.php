@@ -58,11 +58,15 @@
         }
 
         .form-container {
-            background-color: rgba(255, 255, 255, 0.5);
+            background-color: rgba(255, 255, 255, 0.3);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             padding: 20px;
             border-radius: 10px;
             text-align: center;
-            width: 50%;
+            width: 30%;
+            border: 2px solid black;
         }
 
         .call-symbol,
@@ -79,6 +83,16 @@
         .btn-book:hover {
             background-color: #388e3c !important;
         }
+
+        .btn.btn-primary.link-button {
+            border: 2px solid black;
+            background-color: white;
+        }
+
+        .btn.btn-primary.link-button:hover {
+            color: white;
+            background-color: black;
+        }
     </style>
 </head>
 
@@ -86,14 +100,14 @@
 
     <div class="button-container">
         <img src="WhatsApp Image 2024-01-04 at 09.14.39_d89da8ea.jpg" alt="Image 1">
-        <button class="link-button doctor1-button" href="doctor.php">client 1</button>
+        <button class="link-button doctor1-button" href="doctor.php">Client 1</button>
     </div>
 
     <div class="form-container">
         <h1 class="mb-4"></h1>
         <form>
             <div class="button-container">
-                <a class="btn btn-primary link-button" href="find.php">chat</a>
+                <a class="btn btn-primary link-button" href="find.php">Chat</a>
             </div>
             <div class="button-container">
                 <a class="btn btn-primary link-button" href="find.php">Call<span class="call-symbol">&#x260E;</span></a>
@@ -102,8 +116,7 @@
                 <a class="btn btn-primary link-button" href="find.php">Video Call<span class="video-call-symbol">&#x1F3A5;</span></a>
             </div>
             <div class="button-container">
-                <a class="btn btn-primary link-button" href="pends
-                .php">payment<span class="video-call-symbol"></a>
+                <a class="btn btn-primary link-button" href="pend.php">Payment<span class="video-call-symbol"></a>
             </div>
         </form>
     </div>

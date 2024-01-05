@@ -63,11 +63,13 @@
     }
 
         .form-container {
-            background-color: rgba(0, 0, 0, 0);
+            background-color: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             padding: 20px;
             border-radius: 10px;
             text-align: center;
-            width: 50%;
+            width: 20%;
             border: 2px solid #000; 
         }
         .form-container .link-button {
@@ -102,7 +104,7 @@
 
 <body>
     <div class="button-container">
-        <img src="WhatsApp Image 2023-12-31 at 8.32.56 PM.jpeg" alt="Image 1">
+        <img src="WhatsApp Image 2024-01-04 at 09.14.39_d89da8ea.jpg" alt="Image 1">
         <button class="link-button doctor1-button" href="doctor.php">plumber 1</button>
     </div>
 

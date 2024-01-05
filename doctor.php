@@ -42,15 +42,15 @@
             height: 40px;
             border-radius: 20px;
             transition: background-color 0.3s, color 0.3s;
-            background-color: transparent;
-            color: #3498db;
-            border: none;
+            background-color: white;
+            color: black;
+            border: black;
             cursor: pointer;
         }
 
         .link-button:hover {
-            background-color: #000;
-            color: #fff;
+            background-color: black;
+            color: white;
         }
 
         .doctor1-button {
@@ -69,11 +69,13 @@
         }
 
         .form-container {
-            background-color: rgba(255, 255, 255, 0.8);
+            background-color: rgba(225, 225, 225, 0.7); 
+    backdrop-filter: blur(10px);
+    border: 2px solid black;
             padding: 20px;
             border-radius: 10px;
             text-align: center;
-            width: 40%; 
+            width: 20%; 
         }
 
         .call-symbol,
@@ -119,7 +121,7 @@
                 <a class="btn btn-primary link-button" href="find.php">Video Call<span class="video-call-symbol">&#x1F3A5;</span></a>
             </div>
             <div class="button-container">
-                <a class="btn btn-primary btn-book" href="book.php">Book</a>
+                <a class="btn btn-primary link-button" href="book.php">Book</a>
             </div>
         </form>
     </div>

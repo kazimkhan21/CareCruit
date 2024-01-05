@@ -46,13 +46,16 @@
             color: #fff !important;
         }
         .form-container {
-            background-color: rgba(255, 255, 255, 0.5);
+            background-color: rgba(225, 225, 225, 0.7); 
+    backdrop-filter: blur(10px);
+    border: 2px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
             padding: 20px;
             border-radius: 10px;
             text-align: center;
-            width: 50%;
+            width: 20%;
         }
-        .call-symbol,
+        .call-symbols
         .video-call-symbol {
             margin-left: 5px;
             font-size: 18px;
@@ -64,15 +67,25 @@
         .btn-book:hover {
             background-color: #388e3c !important;
         }
+
+        .btn.btn-primary.link-button {
+            border: 2px solid black;
+            background-color: white;
+        }
+
+        .btn.btn-primary.link-button:hover {
+            color: white;
+            background-color: black;
+        }
     </style>
 </head>
 <body>
     <div class="button-container">
         <img src="WhatsApp Image 2024-01-04 at 09.14.39_d89da8ea.jpg" alt="Image 1">
-        <button class="link-button doctor1-button" href="doctor.php">client 1</button>
+        <button class="link-button doctor1-button" href="doctor.php">Client 1</button>
     </div>
     <div class="form-container">
-        <h1 class="mb-4">client 1</h1>
+        <h1 class="mb-4">Client 1</h1>
         <form>
             <div class="button-container">
                 <a class="btn btn-primary link-button" href="accept.php">Accept</a>
@@ -81,10 +94,10 @@
                 <a class="btn btn-primary link-button" href="find.php">Decline</a>
             </div>
             <div class="button-container">
-                <a class="btn btn-primary link-button" href="find.php">waiting list<span class="call-symbol"></span></a>
+                <a class="btn btn-primary link-button" href="find.php">Waiting List<span class="call-symbol"></span></a>
             </div>
             <div class="button-container">
-                <a class="btn btn-primary link-button" href="find.php">view orders<span class="call-symbol"></span></a>
+                <a class="btn btn-primary link-button" href="find.php">View orders<span class="call-symbol"></span></a>
             </div>
         </form>
     </div>

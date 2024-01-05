@@ -7,7 +7,7 @@
   <title>Health Form</title>
   <style>
     body {
-  background-image: url('WhatsApp Image 2024-01-04 at 12.30.01_15a298df.jpg');
+  background-image: url('WhatsApp Image 2024-01-04 at 12.28.25_a87e6ed3.jpg');
   background-size: 100% auto; 
   background-position: center; 
   background-repeat: no-repeat; 
@@ -41,15 +41,15 @@
     }
 
     .btn-primary {
-      background-color: transparent;
-      border-color: #007bff;
-      color: #007bff;
+      background-color: white;
+      border-color: black;
+      color: black;
       border-radius: 20px;
     }
 
     .btn-primary:hover {
-      background-color: #007bff;
-      color: #fff;
+      background-color: black;
+      color: white;
     }
 
     .link-button {
@@ -84,13 +84,13 @@
     }
 
     .dropdown-menu a.dropdown-item {
-      color: #007bff;
+      color: black;
       transition: background-color 0.3s, color 0.3s;
     }
 
     .dropdown-menu a.dropdown-item:hover {
-      background-color: #007bff;
-      color: #fff;
+      background-color: black;
+      color: white;
     }
   </style>
 </head>

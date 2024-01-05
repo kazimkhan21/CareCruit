@@ -22,7 +22,9 @@
     }
 
     .form-container {
-      background-color: rgba(255, 255, 255, 0.7); 
+      background-color: rgba(225, 225, 225, 0.7); 
+    backdrop-filter: blur(10px);
+    border: 2px solid black;  
       border-radius: 10px;
       padding: 20px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -64,15 +66,17 @@
     }
 
     .btn-sos {
-      background-color: transparent;
-      border-color: #dc3545;
-      color: #dc3545;
+      background-color: red; 
+      border-color: black; 
+      color: white; 
       border-radius: 20px;
+      transition: background-color 0.3s, color 0.3s; 
     }
 
     .btn-sos:hover {
-      background-color: #dc3545;
-      color: #fff;
+      background-color: white; 
+      color: black;
+      border-color: black;
     }
 
     .button-container a {

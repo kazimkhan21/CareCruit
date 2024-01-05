@@ -23,7 +23,7 @@
     }
 
     .form-container {
-      background-color: transparent; 
+      background-color: rgba(225,225,225,0.7); 
       border: 2px solid black; 
       border-radius: 10px;
       padding: 20px;
@@ -63,20 +63,21 @@
     }
 
     .link-button:hover {
-      color: #dc3545; 
+      color: white; 
     }
 
     .btn-sos {
-      background-color: transparent; 
-      border-color: #dc3545; 
-      color: #dc3545; 
+      background-color: red; 
+      border-color: black; 
+      color: white; 
       border-radius: 20px;
       transition: background-color 0.3s, color 0.3s; 
     }
 
     .btn-sos:hover {
-      background-color: #dc3545; 
-      color: #fff; 
+      background-color: white; 
+      color: black;
+      border-color: black;     
     }
 
     .button-container a {
@@ -90,9 +91,9 @@
     <h1 class="mb-4">Find Your service</h1>
     <form>
       <div class="button-container">
-        <a class="btn btn-primary link-button" href="doctors.php">plumber</a>
-        <a class="btn btn-primary link-button" href="#">carpenter</a>
-        <a class="btn btn-primary link-button" href="#">electrician</a>
+        <a class="btn btn-primary link-button" href="doctors.php">Plumber</a>
+        <a class="btn btn-primary link-button" href="#">Carpenter</a>
+        <a class="btn btn-primary link-button" href="#">Electrician</a>
         <a class="btn btn-sos" href="inter.php">SOS</a>
       </div>
     </form>
