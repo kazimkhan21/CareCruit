@@ -19,7 +19,7 @@
       background-position: center;
     }
     .btn-primary {
-      background-color: transparent;
+      background-color: white;
       border-color: black;
       color: white;
       border-radius: 20px;
