@@ -37,18 +37,18 @@
         .link-button {
             width: 150px;
             height: 40px;
-            border-radius: 50px; /* Use a high value to create an oval shape */
-            transition: background-color 0.3s, border-color 0.3s; /* Added border-color transition */
+            border-radius: 50px; 
+            transition: background-color 0.3s, border-color 0.3s; 
             background-color: transparent;
             color: #000;
-            border: 2px solid transparent; /* Changed to a 2px transparent border */
+            border: 2px solid transparent; 
             cursor: pointer;
         }
 
         .link-button:hover {
             background-color: #000;
             color: #fff;
-            border-color: #000; /* Changed to a black border color on hover */
+            border-color: #000; 
         }
 
         .dropdown-container {

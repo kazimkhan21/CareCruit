@@ -73,7 +73,7 @@
             padding: 20px;
             border-radius: 10px;
             text-align: center;
-            width: 40%; /* Adjust the width as needed */
+            width: 40%; 
         }
 
         .call-symbol,
@@ -121,7 +121,6 @@
             <div class="button-container">
                 <a class="btn btn-primary btn-book" href="book.php">Book</a>
             </div>
-            <!-- Add other buttons here -->
         </form>
     </div>
 

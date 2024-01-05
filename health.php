@@ -54,7 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
 
         .form-container {
-            background-color: rgba(255, 255, 255, 0.7); /* Set transparency for form */
+            background-color: rgba(255, 255, 255, 0.7); 
             border-radius: 10px;
             padding: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);

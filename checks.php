@@ -13,8 +13,8 @@
     justify-content: center;
     height: 100vh;
     background-image: url('WhatsApp Image 2024-01-04 at 12.30.01_15a298df.jpg');
-    background-size: 100%; /* Zoom the background image to 150% */
-    background-position: center; /* Center the background image */
+    background-size: 100%; 
+    background-position: center; 
     background-repeat: no-repeat;
 }
 

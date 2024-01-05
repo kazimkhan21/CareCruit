@@ -8,9 +8,9 @@
   <style>
     body {
   background-image: url('WhatsApp Image 2024-01-04 at 12.30.01_15a298df.jpg');
-  background-size: 100% auto; /* Zoomed out by 90% horizontally, maintaining aspect ratio */
-  background-position: center; /* Aligning the background image to the center */
-  background-repeat: no-repeat; /* Ensuring the background image doesn't repeat */
+  background-size: 100% auto; 
+  background-position: center; 
+  background-repeat: no-repeat; 
   margin: 0;
   height: 100vh;
   display: flex;
@@ -121,20 +121,14 @@
     </div>
   </div>
 
-  <!-- Bootstrap JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
   <script>
     function showTickAnimation() {
-      // Code to show tick animation
-      // For example, you can use an animation library or custom CSS animation here
-      
-      // Play sound indicating payment is done
+
       var audio = new Audio('path_to_sound_file.wav');
       audio.play();
       
-      // Show bubbles on the web page (You'll need to implement this)
-      // For example, use CSS animations or JavaScript to create bubble effects
     }
   </script>
 </body>

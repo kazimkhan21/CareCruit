@@ -25,7 +25,7 @@
     }
 
     .form-container {
-      background-color: rgba(255, 255, 255, 0.5); /* Adjust the opacity as needed */
+      background-color: rgba(255, 255, 255, 0.5); 
       border-radius: 10px;
       padding: 20px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);

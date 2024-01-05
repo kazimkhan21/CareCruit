@@ -50,8 +50,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             border-radius: 10px;
             padding: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 60%; /* Adjust the width as needed */
-            max-width: 600px; /* Maximum width for larger screens */
+            width: 60%; 
+            max-width: 600px; 
         }
         .mb-3 {
             margin-bottom: 15px;

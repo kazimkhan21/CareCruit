@@ -52,12 +52,12 @@
         }
 
         .doctor1-button {
-        background-color: #000; /* Change to black */
-        color: #fff; /* White text color */
-        border: none; /* Remove border if not needed */
-        width: 150px; /* Adjust width if needed */
-        height: 40px; /* Adjust height if needed */
-        border-radius: 20px; /* Add border radius */
+        background-color: #000; 
+        color: #fff; 
+        border: none; 
+        width: 150px; 
+        height: 40px; 
+        border-radius: 20px; 
         transition: background-color 0.3s, color 0.3s;
         cursor: pointer;
     }
@@ -68,7 +68,7 @@
             border-radius: 10px;
             text-align: center;
             width: 50%;
-            border: 2px solid #000; /* Add black border */
+            border: 2px solid #000; 
         }
         .form-container .link-button {
         background-color: transparent;
@@ -127,7 +127,6 @@
             <div class="button-container">
                 <a class="btn btn-primary link-button" href="books.php">Book</a>
             </div>
-            <!-- Other button containers -->
         </form>
     </div>
 

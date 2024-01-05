@@ -23,8 +23,8 @@
     }
 
     .form-container {
-      background-color: transparent; /* Set complete transparency for form background */
-      border: 2px solid black; /* Add a black border */
+      background-color: transparent; 
+      border: 2px solid black; 
       border-radius: 10px;
       padding: 20px;
       box-shadow: 0 0 10px rgba(255,255, 255, 0.5);
@@ -45,38 +45,38 @@
     }
 
     .btn-primary {
-      background-color: transparent; /* Set buttons initially transparent */
-      border-color: #000; /* Set border color */
-      color: #000; /* Set text color */
+      background-color: transparent; 
+      border-color: #000; 
+      color: #000; 
       border-radius: 20px;
-      transition: background-color 0.3s, color 0.3s; /* Smooth color transition */
+      transition: background-color 0.3s, color 0.3s; 
     }
 
     .btn-primary:hover {
-      background-color: #000; /* Change background on hover */
-      color: red; /* Change text color on hover */
+      background-color: #000; 
+      color: red; 
     }
 
     .link-button {
-      color: #000; /* Set text color for links */
+      color: #000; 
       transition: color 0.3s;
     }
 
     .link-button:hover {
-      color: #dc3545; /* Change text color on hover */
+      color: #dc3545; 
     }
 
     .btn-sos {
-      background-color: transparent; /* Set button initially transparent */
-      border-color: #dc3545; /* Set border color for SOS */
-      color: #dc3545; /* Set text color for SOS */
+      background-color: transparent; 
+      border-color: #dc3545; 
+      color: #dc3545; 
       border-radius: 20px;
-      transition: background-color 0.3s, color 0.3s; /* Smooth color transition */
+      transition: background-color 0.3s, color 0.3s; 
     }
 
     .btn-sos:hover {
-      background-color: #dc3545; /* Change background on hover */
-      color: #fff; /* Change text color on hover */
+      background-color: #dc3545; 
+      color: #fff; 
     }
 
     .button-container a {

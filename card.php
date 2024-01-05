@@ -46,12 +46,12 @@
             transition: background-color 0.3s;
             background-color: transparent;
             color: #000;
-            border: 2px solid #000; /* Black border */
+            border: 2px solid #000; 
             cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
-            padding: 0; /* Remove padding */
+            padding: 0; 
         }
 
         .link-button:hover {
@@ -61,8 +61,8 @@
 
         .grid-container {
             display: grid;
-            grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
-            gap: 20px; /* Adjust the gap between elements */
+            grid-template-columns: repeat(3, 1fr); 
+            gap: 20px; 
         }
 
         .dropdown-container {
@@ -92,26 +92,24 @@
     </div>
 
     <div class="grid-container">
-        <!-- Clone of image-button pair -->
+       
         <div class="button-container">
             <img src="WhatsApp Image 2024-01-04 at 09.14.39_d89da8ea.jpg" alt="Image 1">
             <a class="link-button" href="doctor.php">Doctor 1</a>
         </div>
         
 
-        <!-- Clone of image-button pair -->
         <div class="button-container">
             <img src="WhatsApp Image 2024-01-04 at 09.14.39_d89da8ea.jpg" alt="Image 2">
             <button class="link-button">Doctor 2</button>
         </div>
         
 
-        <!-- Clone of image-button pair -->
         <div class="button-container">
             <img src="WhatsApp Image 2024-01-04 at 09.14.39_d89da8ea.jpg" alt="Image 3">
             <button class="link-button">Doctor 3</button>
         </div>
-        <!-- Add more clones as needed -->
+  
         </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
