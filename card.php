@@ -109,6 +109,23 @@
             <img src="WhatsApp Image 2024-01-04 at 09.14.39_d89da8ea.jpg" alt="Image 3">
             <button class="link-button">Doctor 3</button>
         </div>
+
+<div class="button-container">
+    <img src="WhatsApp Image 2024-01-04 at 09.14.39_d89da8ea.jpg" alt="Image 3">
+    <button class="link-button">Doctor 4</button>
+</div>
+
+
+<div class="button-container">
+            <img src="WhatsApp Image 2024-01-04 at 09.14.39_d89da8ea.jpg" alt="Image 3">
+            <button class="link-button">Doctor 5</button>
+        </div>
+        
+
+        <div class="button-container">
+            <img src="WhatsApp Image 2024-01-04 at 09.14.39_d89da8ea.jpg" alt="Image 3">
+            <button class="link-button">Doctor 6</button>
+        </div>
   
         </div>
 
