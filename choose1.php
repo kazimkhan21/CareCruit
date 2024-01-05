@@ -9,10 +9,10 @@
     integrity="sha384-nU14brUcp6StFntEOOEBvcJm4huWjB0OcIeQ3fltAfSmuZFrkAif0T+UtNGlKKQv" crossorigin="anonymous">
   <style>
    body {
-    background-image: url('WhatsApp Image 2024-01-04 at 12.30.01_15a298df.jpg'); /* Set the background image */
-    background-size: 100%; /* Zoom out the background image */
-    background-position: center; /* Center the background */
-    height: 100vh; /* Set height to fill the viewport */
+    background-image: url('WhatsApp Image 2024-01-04 at 12.30.01_15a298df.jpg'); 
+    background-size: 100%; 
+    background-position: center; 
+    height: 100vh; 
     margin: 0;
     display: flex;
     justify-content: center;
@@ -24,7 +24,7 @@
 
 
     .form-container {
-  background-color: rgba(183, 240, 191, 0.9); /* Adjusted background color with more opacity */
+  background-color: rgba(183, 240, 191, 0.9); 
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -63,14 +63,14 @@
       background:black;
     }
     .mb-4 {
-        margin-top: 20px; /* Adjusted margin-top for h1 */
+        margin-top: 20px; 
         color:black;
     }
 
     .btn-primary:hover {
   color: #fff;
   transform: scale(1.1);
-  background-color: black; /* Set background color on hover */
+  background-color: black; 
 }
 
     .col-md-6
@@ -80,7 +80,7 @@
 
     
     .container.form-container {
-     background-color: transparent; /* Make the container transparent */
+     background-color: transparent; 
     }
 
     .btn-primary:hover::after {
