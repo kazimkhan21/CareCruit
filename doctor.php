@@ -97,11 +97,11 @@
 
     <div class="button-container">
         <img src="WhatsApp Image 2024-01-04 at 09.14.39_d89da8ea.jpg" alt="Image 1">
-        <button class="link-button doctor1-button" href="doctor.php">doctor 1</button>
+        <button class="link-button doctor1-button" href="doctor.php">Doctor 1</button>
     </div>
 
     <div class="form-container">
-        <h1 class="mb-4">About doctor 1</h1>
+        <h1 class="mb-4">About Doctor 1</h1>
         <form>
             <div class="button-container">
                 <a class="btn btn-primary link-button" href="find.php">Bio data</a>

@@ -86,9 +86,9 @@
     <h1 class="mb-4">Find Your service</h1>
     <form>
       <div class="button-container">
-        <a class="btn btn-primary link-button" href="service.php">Health service</a>
-        <a class="btn btn-primary link-button" href="#">home service</a>
-        <a class="btn btn-primary link-button" href="#">Health loan</a>
+        <a class="btn btn-primary link-button" href="service.php">Health Service</a>
+        <a class="btn btn-primary link-button" href="#">Home Service</a>
+        <a class="btn btn-primary link-button" href="#">Health Loan</a>
         <a class="btn btn-sos" href="inter.php">SOS</a>
       </div>
     </form>

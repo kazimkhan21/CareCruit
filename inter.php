@@ -78,9 +78,9 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
   <div class="button-container">
-    <a class="btn btn-primary link-button" href="#">Call police</a>
-    <a class="btn btn-primary link-button" href="#">Call ambulance</a>
-    <a class="btn btn-primary link-button" href="#">Call to home</a>
+    <a class="btn btn-primary link-button" href="#">Call Police</a>
+    <a class="btn btn-primary link-button" href="#">Call Ambulance</a>
+    <a class="btn btn-primary link-button" href="#">Call to Home</a>
   </div>
 
 </body>
