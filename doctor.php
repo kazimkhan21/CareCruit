@@ -70,8 +70,8 @@
 
         .form-container {
             background-color: rgba(225, 225, 225, 0.7); 
-    backdrop-filter: blur(10px);
-    border: 2px solid black;
+            backdrop-filter: blur(10px);
+            border: 2px solid black;
             padding: 20px;
             border-radius: 10px;
             text-align: center;
