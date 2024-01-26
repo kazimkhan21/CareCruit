@@ -42,8 +42,7 @@
             background-color:white;
             color: black;
             border: 2px solid black; 
-            cursor: pointer;
-            /* background: ; */
+            cursor: pointer;    
         }
 
         .link-button:hover {
@@ -56,6 +55,22 @@
             position: absolute;
             top: 10px;
             right: 10px;
+        }
+        
+        .card-image-top {
+            border: 2px solid black;
+        }
+
+        .card-title {
+            margin-left: 80px;
+        }
+
+        .card-text {
+            margin-left: 20px;
+        }
+
+        .btn  {
+            margin-left: 70px;
         }
     </style>
 </head>
@@ -76,34 +91,70 @@
         </div>
     </div>
 
-    <div class="button-container">
-        <img src="WhatsApp Image 2024-01-04 at 09.14.39_d89da8ea.jpg" alt="Image 1">
-        <a class="btn btn-primary link-button" href="bio.php">plumber 1</a>
+    <div class="container">
+        <div class="card">
+            <img src="Female Doctor.jpg" class="card-image-top" style="margin-left: 60px;" />
+            <div class="card-body">
+                <h5 class="card-title">Plumber 1</h5>
+                <p class="card-text">I can install and repair pipes</p>
+                <a href="bio.php" class="btn btn-primary">Know More</a>
+              </div>
+        </div>
     </div>
 
-    <div class="button-container">
-        <img src="WhatsApp Image 2024-01-04 at 09.14.39_d89da8ea.jpg" alt="Image 2">
-        <button class="link-button" href="#">plumber 2</button>
+    <div class="container">
+        <div class="card">
+            <img src="Female Doctor.jpg" class="card-image-top" style="margin-left: 60px;" />
+            <div class="card-body">
+                <h5 class="card-title">Plumber 2</h5>
+                <p class="card-text">I can install and repair pipes</p>
+                <a href="#" class="btn btn-primary">Know More</a>
+              </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="card">
+            <img src="Female Doctor.jpg" class="card-image-top" style="margin-left: 60px;" />
+            <div class="card-body">
+                <h5 class="card-title">Plumber 3</h5>
+                <p class="card-text">I can install and repair pipes</p>
+                <a href="#" class="btn btn-primary">Know More</a>
+              </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="card">
+            <img src="Female Doctor.jpg" class="card-image-top" style="margin-left: 60px;" />
+            <div class="card-body">
+                <h5 class="card-title">Plumber 4</h5>
+                <p class="card-text">I can install and repair pipes</p>
+                <a href="#" class="btn btn-primary">Know More</a>
+              </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="card">
+            <img src="Female Doctor.jpg" class="card-image-top" style="margin-left: 60px;" />
+            <div class="card-body">
+                <h5 class="card-title">Plumber 5</h5>
+                <p class="card-text">I can install and repair pipes</p>
+                <a href="#" class="btn btn-primary">Know More</a>
+              </div>
+        </div>
     </div>
 
-    <div class="button-container">
-        <img src="WhatsApp Image 2024-01-04 at 09.14.39_d89da8ea.jpg" alt="Image 3">
-        <button class="link-button">plumber 3</button>
-    </div>
-    
-    <div class="button-container">
-        <img src="WhatsApp Image 2024-01-04 at 09.14.39_d89da8ea.jpg" alt="Image 3">
-        <button class="link-button">plumber 4</button>
-    </div>
-    
-    <div class="button-container">
-        <img src="WhatsApp Image 2024-01-04 at 09.14.39_d89da8ea.jpg" alt="Image 3">
-        <button class="link-button">plumber 5</button>
-    </div>
-    
-    <div class="button-container">
-        <img src="WhatsApp Image 2024-01-04 at 09.14.39_d89da8ea.jpg" alt="Image 3">
-        <button class="link-button">plumber 6</button>
+    <div class="container">
+        <div class="card">
+            <img src="Female Doctor.jpg" class="card-image-top" style="margin-left: 60px;" />
+            <div class="card-body">
+                <h5 class="card-title">Plumber 6</h5>
+                <p class="card-text">I can install and repair pipes</p>
+                <a href="#" class="btn btn-primary">Know More</a>
+              </div>
+        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

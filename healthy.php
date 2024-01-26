@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mobile = $_POST["mobile"];
     $exists = false;
     if ($exists == false) {
-        $sql = "INSERT INTO pros (username, age, emailaddress, password, nation, state, mobile) VALUES ('$username', '$age', '$emailaddress', '$password', '$nation', '$state', '$mobile');";
+        $sql = "INSERT INTO homeworkeruser (username, age, emailaddress, password, nation, state, mobile) VALUES ('$username', '$age', '$emailaddress', '$password', '$nation', '$state', '$mobile');";
         $result = mysqli_query($conn, $sql);
 
         

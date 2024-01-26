@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mobile = $_POST["mobile"];
     $exists = false;
     if ($exists == false) {
-        $sql = "INSERT INTO pro (username, age, emailaddress, password, nation, state, mobile) VALUES ('$username', '$age', '$emailaddress', '$password', '$nation', '$state', '$mobile');";
+        $sql = "INSERT INTO healthcareuser (username, age, emailaddress, password, nation, state, mobile) VALUES ('$username', '$age', '$emailaddress', '$password', '$nation', '$state', '$mobile');";
         $result = mysqli_query($conn, $sql);
 
         
@@ -55,8 +55,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         .form-container {
             background-color: rgba(225, 225, 225, 0.7); 
-    backdrop-filter: blur(10px);
-    border: 2px solid black; 
+            backdrop-filter: blur(10px);
+            border: 2px solid black; 
             border-radius: 10px;
             padding: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -77,11 +77,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
 
         .btn-primary {
-      background-color: transparent;
-      border-color: black;
-      color: black;
-      border-radius: 20px;
-    }
+            background-color: transparent;
+            border-color: black;
+            color: black;
+            border-radius: 20px;
+        }
 
     .btn-primary:hover {
       background-color: black;

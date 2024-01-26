@@ -2,7 +2,7 @@
 $server = "localhost";
 $username = "root";
 $password = "";
-$database = "pro";
+$database = "healthcare";
 
 $conn = mysqli_connect($server,$username,$password,$database);
 if(!$conn)

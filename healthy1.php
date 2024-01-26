@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $oth = $_POST["oth"];
     $exists = false;
     if ($exists == false) {
-        $sql = "INSERT INTO srujans2 (username, password, mobile, nation, state, age, emailaddress, work, lice, oth) VALUES ('$username', '$password', '$mobile', '$nation', '$state', '$age', '$emailaddress', '$work', '$lice', '$oth');";
+        $sql = "INSERT INTO homeworkersworker (username, password, mobile, nation, state, age, emailaddress, work, lice, oth) VALUES ('$username', '$password', '$mobile', '$nation', '$state', '$age', '$emailaddress', '$work', '$lice', '$oth');";
         $result = mysqli_query($conn, $sql);
     }
 }

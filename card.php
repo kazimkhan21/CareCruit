@@ -71,6 +71,21 @@
             right: 10px;
         }
 
+        .card-image-top {
+            border: 2px solid black;
+        }
+
+        .card-title {
+            margin-left: 80px;
+        }
+
+        .card-text {
+            margin-left: 20px;
+        }
+
+        .btn  {
+            margin-left: 70px;
+        }
     </style>
 </head>
 
@@ -93,39 +108,75 @@
 
     <div class="grid-container">
        
-        <div class="button-container">
-            <img src="WhatsApp Image 2024-01-04 at 09.14.39_d89da8ea.jpg" alt="Image 1">
-            <a class="link-button" href="doctor.php">Doctor 1</a>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="Male Doctor.jpg" class="card-image-top" style="margin-left: 60px;"  />
+            <div class="card-body">
+                <h5 class="card-title">Doctor 1</h5>
+                <p class="card-text">Specialisation : Cardiologist</p>
+                <a href="#" class="btn btn-primary">Know More</a>
+              </div>
         </div>
+    </div>
+        
+    <div class="container">
+        <div class="card">
+            <img src="Female Doctor.jpg" class="card-image-top" style="margin-left: 60px;" />
+            <div class="card-body">
+                <h5 class="card-title">Doctor 2</h5>
+                <p class="card-text">Specialisation : Cardiologist</p>
+                <a href="#" class="btn btn-primary">Know More</a>
+              </div>
+        </div>
+    </div>
+    
         
 
-        <div class="button-container">
-            <img src="WhatsApp Image 2024-01-04 at 09.14.39_d89da8ea.jpg" alt="Image 2">
-            <button class="link-button">Doctor 2</button>
+    <div class="container">
+        <div class="card">
+            <img src="Male Doctor.jpg" class="card-image-top" style="margin-left: 60px;" />
+            <div class="card-body">
+                <h5 class="card-title">Doctor 3</h5>
+                <p class="card-text">Specialisation : Cardiologist</p>
+                <a href="#" class="btn btn-primary">Know More</a>
+              </div>
         </div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <img src="Female Doctor.jpg" class="card-image-top" style="margin-left: 60px;" />
+            <div class="card-body">
+                <h5 class="card-title">Doctor 4</h5>
+                <p class="card-text">Specialisation : Cardiologist</p>
+                <a href="#" class="btn btn-primary">Know More</a>
+              </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="card">
+            <img src="Male Doctor.jpg" class="card-image-top" style="margin-left: 60px;" />
+            <div class="card-body">
+                <h5 class="card-title">Doctor 5</h5>
+                <p class="card-text">Specialisation : Cardiologist</p>
+                <a href="#" class="btn btn-primary">Know More</a>
+              </div>
+        </div>
+    </div>
         
 
-        <div class="button-container">
-            <img src="WhatsApp Image 2024-01-04 at 09.14.39_d89da8ea.jpg" alt="Image 3">
-            <button class="link-button">Doctor 3</button>
+    <div class="container">
+        <div class="card">
+            <img src="Male Doctor.jpg" class="card-image-top" style="margin-left: 60px;" />
+            <div class="card-body">
+                <h5 class="card-title">Doctor 6</h5>
+                <p class="card-text">Specialisation : Cardiologist</p>
+                <a href="#" class="btn btn-primary">Know More</a>
+              </div>
         </div>
-
-        <div class="button-container">
-            <img src="WhatsApp Image 2024-01-04 at 09.14.39_d89da8ea.jpg" alt="Image 3">
-            <button class="link-button">Doctor 4</button>
-        </div>
-
-
-        <div class="button-container">
-                    <img src="WhatsApp Image 2024-01-04 at 09.14.39_d89da8ea.jpg" alt="Image 3">
-                    <button class="link-button">Doctor 5</button>
-        </div>
-        
-
-        <div class="button-container">
-            <img src="WhatsApp Image 2024-01-04 at 09.14.39_d89da8ea.jpg" alt="Image 3">
-            <button class="link-button">Doctor 6</button>
-        </div>
+    </div>
   
         </div>
 
