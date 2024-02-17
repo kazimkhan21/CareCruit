@@ -20,7 +20,7 @@
             justify-content: center;
             height: 100vh;
             margin: 0;
-            background-image: url('WhatsApp Image 2024-01-04 at 12.28.25_a87e6ed3.jpg');
+            background-image: url('HealthBG.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -114,7 +114,7 @@
             <div class="card-body">
                 <h5 class="card-title">Doctor 1</h5>
                 <p class="card-text">Specialisation : Cardiologist</p>
-                <a href="#" class="btn btn-primary">Know More</a>
+                <a href="bio2.php" class="btn btn-primary">Know More</a>
               </div>
         </div>
     </div>
@@ -125,7 +125,7 @@
             <div class="card-body">
                 <h5 class="card-title">Doctor 2</h5>
                 <p class="card-text">Specialisation : Cardiologist</p>
-                <a href="#" class="btn btn-primary">Know More</a>
+                <a href="bio2.php" class="btn btn-primary">Know More</a>
               </div>
         </div>
     </div>
@@ -138,7 +138,7 @@
             <div class="card-body">
                 <h5 class="card-title">Doctor 3</h5>
                 <p class="card-text">Specialisation : Cardiologist</p>
-                <a href="#" class="btn btn-primary">Know More</a>
+                <a href="bio2.php" class="btn btn-primary">Know More</a>
               </div>
         </div>
     </div>
@@ -149,7 +149,7 @@
             <div class="card-body">
                 <h5 class="card-title">Doctor 4</h5>
                 <p class="card-text">Specialisation : Cardiologist</p>
-                <a href="#" class="btn btn-primary">Know More</a>
+                <a href="bio2.php" class="btn btn-primary">Know More</a>
               </div>
         </div>
     </div>
@@ -161,7 +161,7 @@
             <div class="card-body">
                 <h5 class="card-title">Doctor 5</h5>
                 <p class="card-text">Specialisation : Cardiologist</p>
-                <a href="#" class="btn btn-primary">Know More</a>
+                <a href="bio2.php" class="btn btn-primary">Know More</a>
               </div>
         </div>
     </div>
@@ -173,7 +173,7 @@
             <div class="card-body">
                 <h5 class="card-title">Doctor 6</h5>
                 <p class="card-text">Specialisation : Cardiologist</p>
-                <a href="#" class="btn btn-primary">Know More</a>
+                <a href="bio2.php" class="btn btn-primary">Know More</a>
               </div>
         </div>
     </div>

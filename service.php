@@ -18,7 +18,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background-image: url('WhatsApp Image 2024-01-04 at 12.28.25_a87e6ed3.jpg');
+      background-image: url('HealthBG.jpg');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;

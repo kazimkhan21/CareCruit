@@ -14,7 +14,7 @@
       justify-content: center;
       height: 100vh;
       margin: 0;
-      background-image: url('pexels-johannes-plenio-1103970.jpg');
+      background-image: url('Background.jpg');
       background-size: cover;
       background-position: center;
     }
