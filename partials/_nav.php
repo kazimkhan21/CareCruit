@@ -62,12 +62,6 @@
     </a>
     <a class="btn btn-primary link-button" href="choose.php">Health Care</a>
   </div>
-  <div class="button-container">
-    <a href="choose1.php">
-      <img src="WhatsApp Image 2023-12-31 at 12.05.21 PM (2).jpeg" alt="Image 2">
-    </a>
-    <a class="btn btn-primary link-button" href="choose1.php">Home workers</a>
-  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-EV6ISpbj7pJ7/ZtfeDaqPbN8JS6Ob5t0agxzEQpIBR9XMz1dEPhh7z4+/en9P3Tl" crossorigin="anonymous"></script>
 </body>
