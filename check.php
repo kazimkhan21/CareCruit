@@ -12,7 +12,7 @@
             align-items: center;
             justify-content: center;
             height: 100vh;
-            background-image: url('WhatsApp Image 2024-01-04 at 12.28.25_a87e6ed3.jpg');
+            background-image: url('HealthBG.jpg');
             background-size: cover;
             background-repeat: no-repeat;
         }
